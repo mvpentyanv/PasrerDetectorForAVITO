@@ -1,0 +1,13 @@
+catboost==1.2.10
+ipykernel==7.3.0
+jupyter==1.1.1
+lightgbm==4.7.0
+matplotlib==3.11.2
+nbconvert==7.17.1
+numpy==2.5.3
+optuna==5.0.0
+pandas==3.0.6
+pytest==9.1.1
+scikit-learn==1.9.1
+scipy==1.18.1
+shap==0.52.0

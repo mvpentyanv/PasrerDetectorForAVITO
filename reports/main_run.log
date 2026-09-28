@@ -1,0 +1,16 @@
+1/5 загрузка данных
+2/5 окно [start, end), удаление дублей, нормализация платформы
+3/5 признаки (один код для train и test)
+    train (11091, 151), test (4909, 151)
+4/5 CV финальной модели (StratifiedKFold(5) + time-holdout)
+  fold 0: p_at_r70=0.8581, pr_auc=0.8232, roc_auc=0.9488
+  fold 1: p_at_r70=0.8467, pr_auc=0.8276, roc_auc=0.9559
+  fold 2: p_at_r70=0.8699, pr_auc=0.8368, roc_auc=0.9577
+  fold 3: p_at_r70=0.7778, pr_auc=0.7927, roc_auc=0.9373
+  fold 4: p_at_r70=0.6923, pr_auc=0.7601, roc_auc=0.9344
+OOF P@R70=0.8229 (folds 0.8089±0.0665) | PR-AUC=0.8076 | ROC-AUC=0.9468 | holdout P@R70=0.7887
+5/5 обучение на всём train и предсказание теста
+    сохранено: /home/mvpentyanv/AvitoTZ/submission.csv
+строк: 4909, уникальных score: 4909, самая большая группа равных score: 1
+submission OK
+exit 0
